@@ -38,4 +38,4 @@ At the end of this project, you are expected to be able to  [explain to anyone](
 -   What vendor prefixes are
 ## End goal of the project
 
-![][goal_site]: https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/10/b9a220ba79af9ede6fc5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20221018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221018T171547Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d81d99f422f18c34a482c6b4297aa4ea213e0b2693a0ccf2eb83a527d821e5b1
+![b9a220ba79af9ede6fc5](https://user-images.githubusercontent.com/105150447/196506254-b00526a4-0695-4040-a264-cb3393076d25.png)
