@@ -186,7 +186,7 @@ a:active {
     text-decoration: none;
 }
 
-.button a:active {
+.button {
     display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
