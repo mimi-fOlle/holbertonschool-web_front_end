@@ -47,7 +47,7 @@ a {
 }
 
 .section-header {
-    float: var(--section-header-align);
+    position: var(--section-header-align);
 }
 
 .section-tagline {
