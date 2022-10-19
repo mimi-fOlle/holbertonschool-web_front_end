@@ -98,10 +98,7 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding-top: var(--section-padding) 50%;
-    padding-bottom: var(--section-padding) 50%;
-    padding-left: 50%;
-    padding-right: 50%;
+    padding: 0.5rem;
 }
 
 .nav .nav-link:hover {
