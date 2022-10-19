@@ -144,10 +144,7 @@ a:active {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-
-.nav .nav-link {
-    display: block;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+.nav .nav-link::before {
     content: empty;
     position: absolute;
     top: 0;
@@ -157,10 +154,18 @@ a:active {
     height: 0.2rem;
 }
 
-.nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
 
 .card-category {
