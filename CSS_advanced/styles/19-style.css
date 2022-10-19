@@ -151,13 +151,13 @@ ul.row {
 }
 
 .col-1-3 {
-    width: 0.3333em;
+    width: 0.3333rem;
     float: left;
     padding: 0.5rem;
 }
 
 .col-1-2 {
-    width: 0.5em;
+    width: 0.5rem;
     float: left;
     padding: 0.5rem;
 }
@@ -174,11 +174,8 @@ ul.row {
     margin-right: auto;
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
 ul.footer {
+    padding: var(--footer-padding);
     text-align: right;
 }
 
