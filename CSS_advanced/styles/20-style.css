@@ -144,16 +144,16 @@ a:active {
     margin: var(--section-tagline-margin);
 }
 
-.row {
-    content: none;
-    display: table;
-    float: none;
-}
-
 ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.row::after {
+    content: none;
+    display: table;
+    float: none;
 }
 
 .col-1-3 {
