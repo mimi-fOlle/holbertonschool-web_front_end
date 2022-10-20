@@ -264,14 +264,14 @@ a:active {
 
 .card-work .card-inner {
     position: absolute;
-    vertical-align: -0.1rem;
+    top: -0.1rem;
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
 }
 
 .card-work:hover .card-inner {
-    background-color: rgba(0, 0, 0, 7);
+    background-color: rgba(0, 0, 0, 0, 7);
 }
 
 .card-work .card-title {
@@ -290,7 +290,10 @@ a:active {
 
 .card-work .card-title a::after {
     position: absolute;
-    padding: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     content: "";
 }
 
